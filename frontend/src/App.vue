@@ -13,6 +13,7 @@
         <router-link to="/ribbon">丝带</router-link>
         <router-link to="/overlap">折边系数</router-link>
         <router-link to="/history">用纸档</router-link>
+        <router-link to="/labels">裁切签</router-link>
         <router-link to="/settings">设置</router-link>
       </nav>
       <div class="gw-rail-foot">BOX → PAPER → UNFOLD</div>

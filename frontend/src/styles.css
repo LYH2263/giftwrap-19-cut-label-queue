@@ -447,6 +447,48 @@ button.ribbon:hover {
   color: var(--bad);
 }
 
+.pill.done {
+  background: rgba(20, 32, 51, 0.08);
+  color: var(--ink-soft);
+}
+
+button.sm,
+.btn.sm {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.checksum {
+  display: block;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.7);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  word-break: break-all;
+  color: var(--ink-soft);
+}
+
+.label-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.1rem;
+  margin: 1rem 0 0.4rem;
+}
+
+.label-meta dt {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.label-meta dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
 .empty {
   color: var(--ink-soft);
   font-size: 0.95rem;
